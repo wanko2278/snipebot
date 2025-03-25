@@ -1,39 +1,4 @@
-![snipe](https://user-images.githubusercontent.com/36104864/115669007-c3bdbd80-a382-11eb-908e-ec4a9e7d9aba.png)
 
-[![GitHub license](https://img.shields.io/github/license/88IO/snipe)](https://github.com/88IO/snipe/blob/master/LICENSE)
-
-# 🔫 discordbot-snipe
-
-予め設定した時刻に通話を強制切断するDiscord Botです。
-
-ボイスチャットで話が弾んで離席しずらい状況になったことはあります。本プロダクトは指定時刻に電話が鳴るアプリで会食から退出しやすくするアイデアを基にし、VC版としての利用を想定しています。
-
-## デモ
-
-![Peek](https://user-images.githubusercontent.com/36104864/125148662-edf76e00-e16e-11eb-8fb6-1022e7a2ed4c.gif)
-
-## 機能
-
-- 時分単位で通話切断予約
-  - 指定時刻にVCから切断
-  - 指定時間後にVCから切断
-- 通話切断３分前、切断時にDMで通知
-- 自分の予約を全削除
-- BotのVC参加
-  - ~~切断３分前に機械音声で通知~~
-
-## 要件
-
-* [Python >= 3.9](https://www.python.org/)
-  * Python 3.8以降でも動作可
-    * pip等で`discord.py[voice]`, `python-dotenv`をインストールする必要あり
-* [Poetry](https://github.com/python-poetry/poetry)
-
-```bash
-pip install poetry
-```
-
-- [FFmpeg](https://www.ffmpeg.org/)
 
 ## セットアップ
 
